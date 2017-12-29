@@ -1,0 +1,23 @@
+$breakpoint0: 320px;
+
+* {
+		font-family: 'courier'
+}
+
+html,
+body {
+		padding: 0;
+		margin: {
+				left: 0;
+				right: 0;
+				top: 0;
+				bottom: 4em;
+		};
+}
+
+#content {
+		margin: 0 auto;
+		@media screen and (min-width : $breakpoint0) {
+				max-width: 50%;
+		}
+}

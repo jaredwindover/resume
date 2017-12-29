@@ -1,0 +1,23 @@
+header {
+		text-align: center;
+		ul.descriptors>li>svg {
+				margin: 0 5px;
+		}
+		address>ul>li>svg {
+				margin-left: 20px;
+		}
+		address span {
+				font-size: smaller;
+		}
+		.descriptors span {
+				font-size: large;
+		}
+		ul {
+				margin: 0;
+				padding: 0;
+				>li {
+						display: inline;
+						list-style-type: none;
+				}
+		}
+}

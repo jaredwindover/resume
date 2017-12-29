@@ -1,0 +1,74 @@
+{
+	"noustalk": {
+		"company": "NousTalk",
+		"location": {"city": "Kitchener", "province": "Ontario"},
+		"title": "Co-founder and Software Developer",
+		"description": "Helping to build clinic management and telehealth solutions for mental health services providers."
+	},
+	"td": {
+		"company": "TD Bank",
+		"location": {"city": "Waterloo", "province": "Ontario"},
+		"title": "Software Engineer",
+		"description": "As a member of the platform software team, I was responsible for the development and testing of Cloudify plugins written in python. The plugins extended the cloudify platform to give downstream developers easy access to deployment steps such as adding a mongo database, or controlling server (anti-)affinity. Refactored and improved a significant body of existing code, and identified a large-scale reliance on undefined behavior that would have broken in a planned upgrade. Prototyped a Python DSL for the development of Cloudify blueprints that cut down verbosity and duplication."
+	},
+	"magnet": {
+		"company": "Magnet Forensics",
+		"location": {"city": "Waterloo", "province": "Ontario"},
+		"title": "Software Developer",
+		"description": "Worked in the R&D area of the company, using C# to build innovative integrations with our principle product. Developed proficiency in Windows Development and the Windows OS, specifically using Powershell to automate tasks and script common actions. Highlights included the development of a graph inference engine and visualization framework that transformed the way previously table-based information was presented, and the development of an ML classifier with high accuracy at identifying problematic conversations between adults and children."
+	},
+	"ens": {
+		"company": "English Never Stops",
+		"location": {"city": "Waterloo", "province": "Ontario"},
+		"title": "Co-founder and Software Developer",
+		"description": "My responsibilities included iterating on an existing wordpress-based platform, architecting a new platform, managing the transition to AWS, setting up a continuous deployment pipeline, interviewing and hiring developers, and managing a production technology stack."
+	},
+	"christie": {
+		"company": "Christie Digital",
+		"location": {"city": "Kitchener", "province": "Ontario"},
+		"title": "Digital Media Support",
+		"description": "Used Python and Test Driven Development to build a framework for applying and evaluating the effectiveness of filtering techniques. Techniques were used for extracting positional information from extremely low-light photography. Filtering techniques included edge-detection, generalized adaptive thresholding and steerable filters. Refactored a node.js server for a game built in Unity, and incorporated a mysql database for statistics collection and querying."
+	},
+	"gov": {
+		"company": "Government of Canada",
+		"location": {"city": "Ottawa", "province": "Ontario"},
+		"title": "Cryptoscientist",
+		"description": "Re-engineered a C program, and integrated it with specialized build tools to produce high-priority code that was immediately put into production. Gathered feedback and improved upon the tool. Updated UPC code for elliptic curve cryptography to use modern libraries, compile on new machines, and work on a wider domain of problems. Researched and studied secret sharing schemes and prepared a survey report on the state of the art. Implemented an algorithm in C for calculating properties of Markov Chains."
+	},
+	"fgf": {
+		"company": "FGF Brands",
+		"location": {"city": "Thornhill", "province": "Ontario"},
+		"title": "Supply Chain Analyst",
+		"description": "Analysed the impact and value of decisions about distribution centre locations which resulted in a significant operational shift with high savings. Assisted with the implementation of said operational shift and the introduction of a new technology for document management. Utilized Google Maps API to automatically generate mapped data visualizations of customer trends."
+	},
+	"ieso": {
+		"company": "IESO",
+		"location": {"city": "Mississauga", "province": "Ontario"},
+		"title": "Market Surveillance Analyst",
+		"description": "Produced database queries for information on the distribution of power and the operation of the Ontario electricity market. Used javascript to chunk large queries and export the results, which had previously been done manually. Wrote Excel macros to produce years' worth of technical graphs to allow efficient analysis of a market participant under surveillance."
+	},
+	"maplesoft": {
+		"company": "MapleSoft",
+		"location": {"city": "Waterloo", "province": "Ontario"},
+		"title": "Junior Developer",
+		"description": "Designed and coded applications for the Teacher Resource Center to aid teachers in explaining pre-calculus concepts such as graphing, functions and polynomials. Coordinated with other departments to produce various aspects of the worksheets and participated in team meetings with the mathematics department. Learned to write and design code in a professional and technical manner, to the specifications of my supervisor and department."
+	},
+	"blackbeltSchools": {
+		"company": "BlackBelt Schools",
+		"location": {"city": "Cambridge", "province": "Ontario"},
+		"title": "Instructor",
+		"description": "Taught Goju-Ryu style Karate to adults, teenagers, and children as young as 6. Conferred with parents and other instructors about student progress and goals, and pedagogical methods. Mentored younger instructors."
+	},
+	"dynamicArts": {
+		"company": "Dynamic Arts",
+		"location": {"city": "Cambridge", "province": "Ontario"},
+		"title": "Assistant Instructor",
+		"description": "Taught Kempo style Karate to classes of children. Conferred with parents about student progress. Member of the demonstration team, performing at internal and external promotional events."
+	},
+	"ispin": {
+		"company": "iSpin",
+		"location": {"city": "Cambridge", "province": "Ontario"},
+		"title": "Founder, instructor, performer",
+		"description": "Founded and ran a summer camp for children of low-income families focused around juggling and prop-manipulation circus arts. Performed magic and juggling at private and public events in the city of Cambridge."
+	}
+}

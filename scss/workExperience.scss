@@ -1,0 +1,53 @@
+$pipeSpacing: 0.5em;
+
+#work-experience {
+		section {
+				padding: 5px;
+
+				.company-name {
+						display: inline;
+						float: left;
+						margin: 0;
+						font: {
+								size: small;
+								weight: normal;
+						}
+						text-transform: uppercase;
+				}
+				.location::before {
+						content: "|";
+						margin: {
+								left: $pipeSpacing;
+								right: $pipeSpacing;
+						}
+						font: {
+								size: small;
+						}
+				}
+				.location {
+						float: left;
+						font: {
+								size: small;
+						}
+						text-transform: uppercase;
+				}
+				.timerange {
+						float: right;
+						font: {
+								size: small;
+								style: italic;
+						}
+				}
+				.title {
+						padding: {
+								top: 1em;
+						}
+						clear: both;
+						font: {
+								size: large;
+								style: underline;
+						}
+						text-decoration: underline;
+				}
+		}
+}
