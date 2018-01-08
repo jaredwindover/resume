@@ -1,6 +1,24 @@
 $pipeSpacing: 0.5em;
 
 #work-experience {
+		@media print {
+				hr, p {
+						margin-top: 0;
+						margin-bottom: 0;
+				}
+				.closed:after {
+						content: "";
+						display: table;
+						clear: both;
+				}
+				.closed {
+						.title {
+								display: none;
+						}
+						hr {
+						}
+				}
+		}
 		section {
 				padding: 5px;
 
@@ -42,12 +60,18 @@ $pipeSpacing: 0.5em;
 						padding: {
 								top: 1em;
 						}
-						clear: both;
 						font: {
 								size: large;
 								style: underline;
 						}
 						text-decoration: underline;
+				}
+				.caret {
+						display: inline-block;
+						margin-left: 10px;
+						@media print {
+								display: none;
+						}
 				}
 		}
 }

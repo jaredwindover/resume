@@ -1,16 +1,18 @@
 header {
-		text-align: center;
-		ul.descriptors>li>svg {
-				margin: 0 5px;
+		@media print {
+				h1 {
+						margin-top: 0;
+				}
 		}
+		p {
+				margin: 5px;
+		}
+		text-align: center;
 		address>ul>li>svg {
 				margin-left: 20px;
 		}
 		address span {
 				font-size: smaller;
-		}
-		.descriptors span {
-				font-size: large;
 		}
 		ul {
 				margin: 0;

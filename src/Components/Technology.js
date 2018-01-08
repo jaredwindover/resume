@@ -8,15 +8,13 @@ export default () => (
 	  <section id="languages">
 	    <h3>Languages</h3>
 	    <ul>
+	      <li id="ecmascript6">ECMAScript 6</li>
+	      <li id="python">Python</li>
 	      <li id="csharp">C#</li>
+	      <li id="php">PHP</li>
 	      <li id="c">C</li>
 	      <li id="cplusplus">C++</li>
-	      <li id="python">Python</li>
-	      <li id="javascript">Javascript</li>
-	      <li id="php">PHP</li>
 	      <li id="haskell">Haskell</li>
-	      <li id="maple">Maple</li>
-	      <li id="assembly">Assembly</li>
 	    </ul>
 	  </section>
 
@@ -26,7 +24,11 @@ export default () => (
 	      <li id="html5">HTML5</li>
 	      <li id="css3">CSS3</li>
 	      <li id="nodejs">Node.js</li>
-	      <li id="nodejs">ReactJs (Redux, Reselect, Recompose Router, ...)</li>
+	      <li id="reactjs">ReactJs</li>
+	      <li id="redux">Redux</li>
+	      <li id="reselect">Reselect</li>
+	      <li id="recompose">Recompose</li>
+	      <li id="router">Router</li>
 	      <li id="express">Express</li>
 	      <li id="wordpress">WordPress</li>
 	      <li id="aws">Amazon Web Services</li>
@@ -36,17 +38,14 @@ export default () => (
 	  <section id="tools">
 	    <h3>Tools</h3>
 	    <ul>
-	      <li id="docker">docker</li>
-	      <li id="emacs">emacs</li>
-	      <li id="make">make</li>
-	      <li id="gdb">gdb</li>
-	      <li id="bash-fish">bash/fish</li>
-	      <li id="powershell">Powershell</li>
-	      <li id="latex">LaTeX</li>
-	      <li id="excel">Excel</li>
 	      <li id="git">git</li>
+	      <li id="emacs">emacs</li>
+	      <li id="docker">docker</li>
 	      <li id="grep">grep</li>
+	      <li id="gdb">gdb</li>
 	      <li id="sed">sed</li>
+	      <li id="bash-fish-powershell">bash/fish/powershell</li>
+	      <li id="excel">Excel</li>
 	    </ul>
 	  </section>
 

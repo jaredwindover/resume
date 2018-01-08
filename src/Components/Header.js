@@ -22,11 +22,9 @@ const BrandSep = withProps({brand: true})(Separator);
 export default () => (
 	<header>
 	  <h1>Jared Windover</h1>
-	  <ul class="descriptors">
-	    <li><span>Motivated autodidact</span><StarSep/></li>
-	    <li><span>Effective communicator</span><StarSep/></li>
-	    <li><span>Capable software designer</span></li>
-	  </ul>
+	  <p>Passionate About Quality Code</p>
+	  <p>Skilled in application development, refactoring, and debugging</p>
+	  <p>Proponent of Test-Driven Development (when it makes sense)</p>
 	  <address>
 	    <ul>
 	      <li><SolidSep icon="envelope"/><span>jaredwindover@gmail.com</span></li>

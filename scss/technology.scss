@@ -4,8 +4,26 @@
 		#tools,
 		#operating-systems,
 		#other{
-				width: 33%;
-				display: inline-block;
-				vertical-align: top;
+				@media screen {
+						width: 33%;
+						display: inline-block;
+						vertical-align: top;
+				}
+				@media print {
+						h3, ul {
+								display: inline;
+						}
+						ul li {
+								list-style: none;
+								display: inline-block;
+						}
+						ul li::after {
+								content: ", ";
+								white-space: pre;
+						}
+						ul li:last-child:after {
+								content: "";
+						}
+				}
 		}
 }

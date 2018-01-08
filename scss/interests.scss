@@ -4,5 +4,11 @@
 				vertical-align: top;
 				display: inline-block;
 				width: 50%;
+				@media print {
+						h3, ul {
+								margin-top: 0;
+								margin-bottom: 0;
+						}
+				}
 		}
 }
